@@ -1,0 +1,423 @@
+schema_version: "1"
+last_catalog_review: "2026-07-07"
+items:
+  - id: daily-work-brief
+    type: workflow
+    name: Daily work brief
+    url: workflows/daily-work-brief.md
+    source_url: https://openai.com/academy/codex-for-work/
+    category: workflow
+    audience: Office professionals and operators
+    work_problem: Turn scattered daily inputs into an ordered plan.
+    codex_relationship: Copy-ready Codex instruction for planning reviewable work.
+    output: Prioritized daily brief with blockers, waiting items, and next action.
+    review_boundary: Human checks meetings, owners, deadlines, sensitive items, and priority order.
+    limits: Does not verify calendar, inbox, or task system records.
+    submitter_affiliation: Maintained by CodexWork.
+    status: drafted
+    last_checked: "2026-07-07"
+  - id: meeting-notes-to-action-list
+    type: workflow
+    name: Meeting notes to action list
+    url: workflows/meeting-notes-to-action-list.md
+    source_url: https://openai.com/academy/codex-for-work/
+    category: workflow
+    audience: Meeting owners and project leads
+    work_problem: Convert raw notes into actions, decisions, and open questions.
+    codex_relationship: Copy-ready Codex instruction for meeting follow-up.
+    output: Action table, decision list, open questions, and follow-up draft.
+    review_boundary: Human confirms owners, due dates, decisions, and off-record items.
+    limits: Does not verify participant intent or actual commitments.
+    submitter_affiliation: Maintained by CodexWork.
+    status: drafted
+    last_checked: "2026-07-07"
+  - id: research-to-decision-memo
+    type: workflow
+    name: Research to decision memo
+    url: workflows/research-to-decision-memo.md
+    source_url: https://openai.com/academy/codex-for-work/
+    category: workflow
+    audience: Analysts, PMs, founders, managers
+    work_problem: Turn research notes into a decision-ready memo.
+    codex_relationship: Copy-ready Codex instruction for synthesis and review.
+    output: Decision memo with options, tradeoffs, recommendation, and evidence map.
+    review_boundary: Human verifies source claims, numbers, dates, criteria, and approvals.
+    limits: Does not conduct independent verification unless source browsing is explicitly requested.
+    submitter_affiliation: Maintained by CodexWork.
+    status: drafted
+    last_checked: "2026-07-07"
+  - id: spreadsheet-cleanup-plan
+    type: workflow
+    name: Spreadsheet cleanup plan
+    url: workflows/spreadsheet-cleanup-plan.md
+    source_url: https://openai.com/academy/codex-for-work/
+    category: workflow
+    audience: Finance, ops, RevOps, analysts
+    work_problem: Plan spreadsheet cleanup before changing live workbook data.
+    codex_relationship: Copy-ready Codex instruction for pre-edit planning.
+    output: Cleanup steps, risk list, validation checks, and safe edit approach.
+    review_boundary: Human confirms business rules, formulas, pivots, and validation totals.
+    limits: Does not inspect hidden workbook dependencies unless the file is provided and reviewed.
+    submitter_affiliation: Maintained by CodexWork.
+    status: drafted
+    last_checked: "2026-07-07"
+  - id: review-ready-deck-outline
+    type: workflow
+    name: Review-ready deck outline
+    url: workflows/review-ready-deck-outline.md
+    source_url: https://openai.com/academy/codex-for-work/
+    category: workflow
+    audience: Managers, consultants, analysts, founders
+    work_problem: Draft deck structure before designing slides.
+    codex_relationship: Copy-ready Codex instruction for deck planning.
+    output: Storyline, slide outline, appendix candidates, and evidence gaps.
+    review_boundary: Human checks objective, audience, evidence, and unsupported claims.
+    limits: Does not create verified slides, charts, or source-backed data.
+    submitter_affiliation: Maintained by CodexWork.
+    status: drafted
+    last_checked: "2026-07-07"
+  - id: workflow-audit-and-automation-spec
+    type: workflow
+    name: Workflow audit and automation spec
+    url: workflows/workflow-audit-and-automation-spec.md
+    source_url: https://developers.openai.com/codex/mcp
+    category: workflow
+    audience: Ops teams, RevOps, founders, automation builders
+    work_problem: Document a process and approval boundary before automation.
+    codex_relationship: Copy-ready Codex instruction for process audit and automation planning.
+    output: Workflow map, failure points, automation candidates, approval gates, and spec.
+    review_boundary: Human confirms systems, permissions, data sensitivity, logging, and rollback.
+    limits: Does not verify live systems, access rights, or compliance requirements.
+    submitter_affiliation: Maintained by CodexWork.
+    status: drafted
+    last_checked: "2026-07-07"
+  - id: monthly-finance-review
+    type: workflow
+    name: Monthly finance review
+    url: workflows/monthly-finance-review.md
+    source_url: https://openai.com/academy/codex-for-work/
+    category: workflow
+    audience: Finance teams, founders, department owners
+    work_problem: Turn monthly results and notes into a reviewable finance pack.
+    codex_relationship: Copy-ready Codex instruction for finance-review drafting.
+    output: Variance table, questions, risks, follow-ups, and assumptions log.
+    review_boundary: Human reconciles figures and confirms variance explanations.
+    limits: Does not audit, reconcile, or certify financial data.
+    submitter_affiliation: Maintained by CodexWork.
+    status: drafted
+    last_checked: "2026-07-07"
+  - id: vendor-comparison-brief
+    type: workflow
+    name: Vendor comparison brief
+    url: workflows/vendor-comparison-brief.md
+    source_url: https://openai.com/academy/codex-for-work/
+    category: workflow
+    audience: Procurement, IT, ops, PMs
+    work_problem: Compare vendors using stated criteria and linked sources.
+    codex_relationship: Copy-ready Codex instruction for comparison brief drafting.
+    output: Criteria table, recommendation, red flags, diligence steps, and source map.
+    review_boundary: Human checks vendor claims, pricing, security, contract, and stakeholder criteria.
+    limits: Does not replace procurement, legal, security, or finance review.
+    submitter_affiliation: Maintained by CodexWork.
+    status: drafted
+    last_checked: "2026-07-07"
+  - id: campaign-brief-builder
+    type: workflow
+    name: Campaign brief builder
+    url: workflows/campaign-brief-builder.md
+    source_url: https://openai.com/academy/codex-for-work/
+    category: workflow
+    audience: Marketing, growth, product marketing
+    work_problem: Clarify campaign goal, audience, proof, channel plan, and review needs.
+    codex_relationship: Copy-ready Codex instruction for campaign brief drafting.
+    output: Campaign objective, audience pain, core message, channel plan, and claims review.
+    review_boundary: Human confirms claims, brand rules, legal review, channel fit, and asset ownership.
+    limits: Does not validate claims, permissions, or platform rules.
+    submitter_affiliation: Maintained by CodexWork.
+    status: drafted
+    last_checked: "2026-07-07"
+  - id: customer-support-triage-summary
+    type: workflow
+    name: Customer support triage summary
+    url: workflows/customer-support-triage-summary.md
+    source_url: https://openai.com/academy/codex-for-work/
+    category: workflow
+    audience: Support, customer success, product ops
+    work_problem: Summarize ticket themes, urgency, escalation candidates, and data-quality issues.
+    codex_relationship: Copy-ready Codex instruction for support triage drafting.
+    output: Theme summary, priority table, escalations, repeated friction, and internal update.
+    review_boundary: Human verifies counts, severity, privacy, owner routing, and escalation rules.
+    limits: Does not inspect the live ticketing system or verify customer impact.
+    submitter_affiliation: Maintained by CodexWork.
+    status: drafted
+    last_checked: "2026-07-07"
+  - id: policy-process-rewrite
+    type: workflow
+    name: Policy/process rewrite
+    url: workflows/policy-process-rewrite.md
+    source_url: https://openai.com/academy/codex-for-work/
+    category: workflow
+    audience: Ops, HR, compliance-adjacent teams, team leads
+    work_problem: Rewrite unclear guidance while preserving review and approval boundaries.
+    codex_relationship: Copy-ready Codex instruction for clarity rewrite with change log.
+    output: Rewritten draft, change log, ambiguities, reader checklist, and approval checklist.
+    review_boundary: Human compares original and rewrite and gets accountable owner review.
+    limits: Does not provide legal, HR, compliance, or security advice.
+    submitter_affiliation: Maintained by CodexWork.
+    status: drafted
+    last_checked: "2026-07-07"
+  - id: prd-project-spec-draft
+    type: workflow
+    name: PRD or project-spec draft
+    url: workflows/prd-project-spec-draft.md
+    source_url: https://openai.com/academy/codex-for-work/
+    category: workflow
+    audience: PMs, founders, technical leads, operators
+    work_problem: Turn rough project notes into a spec that reviewers can challenge.
+    codex_relationship: Copy-ready Codex instruction for PRD or project-spec drafting.
+    output: Summary, scope, requirements, acceptance checks, risks, questions, and review plan.
+    review_boundary: Human validates problem, scope, requirements, feasibility, cost, timing, and approvals.
+    limits: Does not validate user research, technical feasibility, compliance, or estimates.
+    submitter_affiliation: Maintained by CodexWork.
+    status: drafted
+    last_checked: "2026-07-07"
+  - id: openai-codex-docs
+    type: official_resource
+    name: OpenAI Codex docs
+    url: https://developers.openai.com/codex
+    source_url: https://developers.openai.com/codex
+    category: official OpenAI/Codex
+    audience: Codex users, builders, and teams
+    work_problem: Learn current Codex surfaces, setup, and workflow concepts.
+    codex_relationship: Official Codex developer documentation.
+    output: Source-backed understanding of Codex features and configuration.
+    review_boundary: Recheck time-sensitive details before relying on them.
+    limits: Documentation can change; this repo does not replace official docs.
+    submitter_affiliation: Maintained by CodexWork from public official source.
+    status: sourced
+    last_checked: "2026-07-07"
+  - id: openai-codex-for-work-academy
+    type: official_resource
+    name: Codex for Work Academy
+    url: https://openai.com/academy/codex-for-work/
+    source_url: https://openai.com/academy/codex-for-work/
+    category: official OpenAI/Codex
+    audience: Office and semi-technical Codex users
+    work_problem: Learn official work-oriented Codex examples.
+    codex_relationship: Official OpenAI Academy resource about Codex for work.
+    output: Work-use examples and learning path.
+    review_boundary: Do not infer availability or support beyond the source.
+    limits: Academy content is a learning resource, not a complete workflow standard.
+    submitter_affiliation: Maintained by CodexWork from public official source.
+    status: sourced
+    last_checked: "2026-07-07"
+  - id: openai-codex-repo
+    type: tool
+    name: openai/codex
+    url: https://github.com/openai/codex
+    source_url: https://github.com/openai/codex
+    category: official OpenAI/Codex
+    audience: Developers and technical Codex users
+    work_problem: Inspect and use the open-source Codex CLI repository.
+    codex_relationship: OpenAI-owned Codex repository.
+    output: CLI code, releases, docs, and issue context.
+    review_boundary: Check current release, license, issues, and docs before adoption.
+    limits: Repository state and release details can change.
+    submitter_affiliation: Maintained by CodexWork from public official source.
+    status: sourced
+    last_checked: "2026-07-07"
+  - id: openai-skills
+    type: tool
+    name: openai/skills
+    url: https://github.com/openai/skills
+    source_url: https://github.com/openai/skills
+    category: official OpenAI/Codex
+    audience: Codex users and skill authors
+    work_problem: Find reusable skill patterns for Codex tasks.
+    codex_relationship: OpenAI-owned skills catalog for Codex.
+    output: Skill examples and catalog entries.
+    review_boundary: Review each skill's instructions, sources, and permission boundary.
+    limits: Skill fit depends on task, environment, and review process.
+    submitter_affiliation: Maintained by CodexWork from public official source.
+    status: sourced
+    last_checked: "2026-07-07"
+  - id: codex-mcp-docs
+    type: official_resource
+    name: Codex MCP docs
+    url: https://developers.openai.com/codex/mcp
+    source_url: https://developers.openai.com/codex/mcp
+    category: MCP and connectors
+    audience: Codex users configuring tools and connectors
+    work_problem: Connect Codex to external systems through MCP.
+    codex_relationship: Official Codex MCP documentation.
+    output: MCP setup and configuration guidance.
+    review_boundary: Check current config behavior and permission scope before editing setup.
+    limits: MCP behavior and client support can change.
+    submitter_affiliation: Maintained by CodexWork from public official source.
+    status: sourced
+    last_checked: "2026-07-07"
+  - id: mcp-docs
+    type: official_resource
+    name: Model Context Protocol docs
+    url: https://modelcontextprotocol.io/docs/getting-started/intro
+    source_url: https://modelcontextprotocol.io/docs/getting-started/intro
+    category: MCP and connectors
+    audience: Agent builders and connector users
+    work_problem: Understand the MCP connector pattern.
+    codex_relationship: Adjacent protocol used by Codex-compatible tool setups.
+    output: MCP concept and terminology source.
+    review_boundary: Confirm client-specific behavior in the target Codex or agent environment.
+    limits: General MCP docs do not guarantee support in every client.
+    submitter_affiliation: Maintained by CodexWork from public official source.
+    status: sourced
+    last_checked: "2026-07-07"
+  - id: github-mcp-server
+    type: mcp_server
+    name: github/github-mcp-server
+    url: https://github.com/github/github-mcp-server
+    source_url: https://github.com/github/github-mcp-server
+    category: MCP and connectors
+    audience: Developers and teams working with GitHub repositories
+    work_problem: Let agents interact with GitHub context.
+    codex_relationship: MCP server usable in Codex-style tool-connected workflows.
+    output: Repository, issue, and pull request context for agents.
+    review_boundary: Confirm permissions, write scope, and repository sensitivity before use.
+    limits: GitHub access can expose or change sensitive repository data.
+    submitter_affiliation: Maintained by CodexWork from public official source.
+    status: sourced
+    last_checked: "2026-07-07"
+  - id: playwright-mcp
+    type: mcp_server
+    name: microsoft/playwright-mcp
+    url: https://github.com/microsoft/playwright-mcp
+    source_url: https://github.com/microsoft/playwright-mcp
+    category: MCP and connectors
+    audience: Developers and automation builders
+    work_problem: Give agents structured browser automation capability.
+    codex_relationship: MCP server that can support Codex-adjacent browser workflows.
+    output: Browser inspection and automation through Playwright.
+    review_boundary: Confirm page privacy, login state, and write actions before use.
+    limits: Browser automation can reveal or change sensitive web state.
+    submitter_affiliation: Maintained by CodexWork from public official source.
+    status: sourced
+    last_checked: "2026-07-07"
+  - id: chrome-devtools-mcp
+    type: mcp_server
+    name: ChromeDevTools/chrome-devtools-mcp
+    url: https://github.com/ChromeDevTools/chrome-devtools-mcp
+    source_url: https://github.com/ChromeDevTools/chrome-devtools-mcp
+    category: MCP and connectors
+    audience: Developers debugging web apps with agents
+    work_problem: Inspect and debug browser pages through Chrome DevTools.
+    codex_relationship: MCP server for Codex-adjacent browser debugging workflows.
+    output: DevTools-backed page inspection and debugging context.
+    review_boundary: Confirm page data sensitivity and browser state before use.
+    limits: Debugging context may include private app or user data.
+    submitter_affiliation: Maintained by CodexWork from public official source.
+    status: sourced
+    last_checked: "2026-07-07"
+  - id: context7
+    type: mcp_server
+    name: upstash/context7
+    url: https://github.com/upstash/context7
+    source_url: https://github.com/upstash/context7
+    category: review and source trace
+    audience: Developers and agent users who need current docs
+    work_problem: Bring current developer documentation into agent workflows.
+    codex_relationship: MCP server that can support Codex-adjacent documentation lookup.
+    output: Retrieved documentation context for coding or workflow tasks.
+    review_boundary: Check critical facts against the primary documentation source.
+    limits: Retrieved context may be incomplete, stale, or mismatched to a version.
+    submitter_affiliation: Maintained by CodexWork from public official source.
+    status: sourced
+    last_checked: "2026-07-07"
+  - id: workspace-agents-announcement
+    type: official_resource
+    name: Workspace agents in ChatGPT
+    url: https://openai.com/index/introducing-workspace-agents-in-chatgpt/
+    source_url: https://openai.com/index/introducing-workspace-agents-in-chatgpt/
+    category: workspace-native agent apps
+    audience: Builders and teams watching agent-app patterns
+    work_problem: Understand OpenAI's workspace-agent direction and examples.
+    codex_relationship: Official OpenAI announcement connected to Codex-powered shared agents.
+    output: Category context for workspace-native agent apps.
+    review_boundary: Do not overstate availability, scope, or product access beyond the source.
+    limits: Announcement details can be preview-limited or time-sensitive.
+    submitter_affiliation: Maintained by CodexWork from public official source.
+    status: sourced
+    last_checked: "2026-07-07"
+  - id: openai-apps-sdk
+    type: framework
+    name: OpenAI Apps SDK
+    url: https://developers.openai.com/apps-sdk
+    source_url: https://developers.openai.com/apps-sdk
+    category: workspace-native agent apps
+    audience: Developers building ChatGPT apps
+    work_problem: Build app experiences that run close to user workflows.
+    codex_relationship: Adjacent OpenAI developer surface for agentic work and MCP app patterns.
+    output: App SDK docs, design guidance, and integration concepts.
+    review_boundary: Check submission, security, privacy, and deployment requirements in official docs.
+    limits: App platform rules and availability can change.
+    submitter_affiliation: Maintained by CodexWork from public official source.
+    status: sourced
+    last_checked: "2026-07-07"
+  - id: openai-agents-sdk-docs
+    type: framework
+    name: OpenAI Agents SDK docs
+    url: https://developers.openai.com/api/docs/guides/agents
+    source_url: https://developers.openai.com/api/docs/guides/agents
+    category: developer and agent frameworks
+    audience: Developers building agent workflows
+    work_problem: Understand OpenAI agent-building patterns.
+    codex_relationship: Adjacent framework for building agents that can complement Codex-style workflows.
+    output: Agent framework concepts and implementation guidance.
+    review_boundary: Verify current APIs, models, and safety guidance before implementation.
+    limits: Framework details can change and examples are not production guarantees.
+    submitter_affiliation: Maintained by CodexWork from public official source.
+    status: sourced
+    last_checked: "2026-07-07"
+  - id: openai-agents-js
+    type: framework
+    name: openai/openai-agents-js
+    url: https://github.com/openai/openai-agents-js
+    source_url: https://github.com/openai/openai-agents-js
+    category: developer and agent frameworks
+    audience: JavaScript and TypeScript developers
+    work_problem: Build agent workflows in JavaScript or TypeScript.
+    codex_relationship: OpenAI-owned agent framework adjacent to Codex workflow builders.
+    output: JavaScript and TypeScript agent framework code and examples.
+    review_boundary: Review release state, examples, dependencies, and security posture.
+    limits: Adoption requires engineering review and current release checks.
+    submitter_affiliation: Maintained by CodexWork from public official source.
+    status: sourced
+    last_checked: "2026-07-07"
+  - id: openai-agents-python
+    type: framework
+    name: openai/openai-agents-python
+    url: https://github.com/openai/openai-agents-python
+    source_url: https://github.com/openai/openai-agents-python
+    category: developer and agent frameworks
+    audience: Python developers
+    work_problem: Build agent workflows in Python.
+    codex_relationship: OpenAI-owned agent framework adjacent to Codex workflow builders.
+    output: Python agent framework code and examples.
+    review_boundary: Review release state, examples, dependencies, and security posture.
+    limits: Adoption requires engineering review and current release checks.
+    submitter_affiliation: Maintained by CodexWork from public official source.
+    status: sourced
+    last_checked: "2026-07-07"
+  - id: openai-cookbook
+    type: official_resource
+    name: openai/openai-cookbook
+    url: https://github.com/openai/openai-cookbook
+    source_url: https://github.com/openai/openai-cookbook
+    category: developer and agent frameworks
+    audience: Developers and technical operators
+    work_problem: Find examples and implementation patterns for OpenAI-powered workflows.
+    codex_relationship: Official examples can inform Codex-adjacent workflow builders.
+    output: Example notebooks, guides, and patterns.
+    review_boundary: Treat examples as starting points and verify current API behavior.
+    limits: Examples may be simplified or not production-ready.
+    submitter_affiliation: Maintained by CodexWork from public official source.
+    status: sourced
+    last_checked: "2026-07-07"

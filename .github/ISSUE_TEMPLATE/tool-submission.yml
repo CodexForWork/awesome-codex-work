@@ -1,0 +1,98 @@
+name: Tool submission
+description: Submit a Codex-adjacent tool, MCP server, template, or agent app.
+title: "[Tool]: "
+labels:
+  - tool-submission
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a tool. Self-promotion is allowed when the entry maps to a real workflow, includes sources, states limits, and discloses affiliation.
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+      description: Name of the tool, repo, MCP server, template, or app.
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Public URL for the tool or repository.
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL
+      description: Docs, repository, changelog, or other source that supports the entry. A landing page alone may not be enough.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Official OpenAI/Codex
+        - MCP and connectors
+        - Workspace-native agent apps
+        - Document, spreadsheet, and deck tools
+        - Review and source-trace tools
+        - Developer and agent frameworks
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: work_problem
+    attributes:
+      label: Work problem
+      description: What real work problem does this help solve?
+    validations:
+      required: true
+  - type: textarea
+    id: codex_relationship
+    attributes:
+      label: Codex relationship
+      description: How is this connected to Codex-powered work?
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Output
+      description: What output does it help a user produce or review?
+    validations:
+      required: true
+  - type: textarea
+    id: review_boundary
+    attributes:
+      label: Human review boundary
+      description: What must a human check before trusting or using the output?
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Limits
+      description: Access requirements, privacy posture, known failure modes, version scope, or other caveats.
+    validations:
+      required: true
+  - type: input
+    id: affiliation
+    attributes:
+      label: Submitter affiliation
+      description: State your relationship to the tool. Use "none" if you have no affiliation.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I am not implying OpenAI endorsement, sponsorship, certification, partnership, approval, or affiliation.
+          required: true
+        - label: I included a source that readers can verify.
+          required: true
+        - label: I stated limits and review boundaries.
+          required: true

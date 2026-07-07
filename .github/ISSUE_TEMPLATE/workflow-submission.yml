@@ -1,0 +1,79 @@
+name: Workflow submission
+description: Suggest a copy-ready Codex workflow.
+title: "[Workflow]: "
+labels:
+  - workflow
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A useful workflow is narrow, copy-ready, reviewable, and honest about where it fails.
+  - type: input
+    id: workflow_name
+    attributes:
+      label: Workflow name
+    validations:
+      required: true
+  - type: textarea
+    id: who
+    attributes:
+      label: Who is this for?
+      description: Role, team, or work context.
+    validations:
+      required: true
+  - type: textarea
+    id: work_problem
+    attributes:
+      label: Work problem
+      description: What recurring work friction does this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Inputs
+      description: What source material would the reader give Codex?
+    validations:
+      required: true
+  - type: textarea
+    id: instruction
+    attributes:
+      label: Copy-ready Codex instruction
+      description: Paste the instruction as a reader would use it.
+    validations:
+      required: true
+  - type: textarea
+    id: expected_output
+    attributes:
+      label: Expected output
+      description: What should Codex produce?
+    validations:
+      required: true
+  - type: textarea
+    id: review
+    attributes:
+      label: Human review checklist
+      description: What must a human check before using the output?
+    validations:
+      required: true
+  - type: textarea
+    id: failure_modes
+    attributes:
+      label: Failure modes
+      description: Where does this workflow break or mislead?
+    validations:
+      required: true
+  - type: textarea
+    id: source_boundary
+    attributes:
+      label: Source boundary
+      description: What does this workflow not verify or guarantee?
+    validations:
+      required: true
+  - type: input
+    id: source_basis
+    attributes:
+      label: Source basis
+      description: Link official docs, public examples, or other sources that support this workflow.
+    validations:
+      required: true

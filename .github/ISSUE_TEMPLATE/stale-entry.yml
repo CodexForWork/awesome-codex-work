@@ -1,0 +1,41 @@
+name: Stale entry
+description: Report a source, release, access note, or claim that may be outdated.
+title: "[Stale]: "
+labels:
+  - stale
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry
+      description: File, section, or catalog id.
+    validations:
+      required: true
+  - type: textarea
+    id: stale_claim
+    attributes:
+      label: What looks stale?
+      description: Describe the claim, link, version, access note, or wording that may need updating.
+    validations:
+      required: true
+  - type: input
+    id: current_source
+    attributes:
+      label: Current source
+      description: Link the current source that supports the update.
+    validations:
+      required: true
+  - type: input
+    id: retrieved_date
+    attributes:
+      label: Retrieved date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: textarea
+    id: suggested_fix
+    attributes:
+      label: Suggested fix
+      description: What should change?
+    validations:
+      required: true

@@ -1,0 +1,54 @@
+name: Source candidate
+description: Suggest a source that could support a future workflow, tool entry, or checklist.
+title: "[Source]: "
+labels:
+  - source-candidate
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Source URL
+    validations:
+      required: true
+  - type: input
+    id: publisher
+    attributes:
+      label: Publisher or repository owner
+    validations:
+      required: true
+  - type: input
+    id: retrieved_date
+    attributes:
+      label: Retrieved date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it belongs
+      description: What Codex-powered work problem does this source help with?
+    validations:
+      required: true
+  - type: dropdown
+    id: suggested_category
+    attributes:
+      label: Suggested category
+      options:
+        - Workflow
+        - Tool
+        - MCP and connector
+        - Workspace-native agent app
+        - Review checklist
+        - Source-traceability method
+        - Developer framework
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: boundary
+    attributes:
+      label: Review boundary
+      description: What should a human check before relying on this source?
+    validations:
+      required: true

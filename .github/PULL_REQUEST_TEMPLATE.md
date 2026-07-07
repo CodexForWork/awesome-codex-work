@@ -1,23 +1,30 @@
-## Summary
+## What changed?
 
-What changed?
+Briefly describe the workflow, tool entry, checklist, source update, or repo change.
 
-## Source Traceability
+## Source traceability
 
 - Source link(s):
 - Retrieved date:
 - What the source supports:
 - What the source does not support:
 
-## Work Fit
+## Work fit
 
-- Directory or playbook section:
-- Work problem this helps with:
-- Human review step:
+- Category:
+- Audience:
+- Work problem:
+- Output:
+- Human review boundary:
 
-## Boundaries Checked
+## Limits and affiliation
 
-- [ ] No private workspace, customer, employer, credential, log, or screenshot details.
-- [ ] No OpenAI affiliation, endorsement, sponsorship, certification, or partnership claim.
-- [ ] No unsupported pricing, availability, performance, adoption, or model-capability claim.
-- [ ] Time-sensitive claims include a date or version note.
+- Known limits, access requirements, or failure modes:
+- Submitter affiliation, if any:
+
+## Checks
+
+- [ ] I kept `data/catalog.yml` aligned when adding or changing a catalog entry.
+- [ ] I avoided private workspace, customer, employer, credential, log, or screenshot details.
+- [ ] I avoided unsupported pricing, availability, performance, adoption, or model-capability claims.
+- [ ] I avoided wording that implies OpenAI affiliation, endorsement, sponsorship, certification, partnership, or approval.
