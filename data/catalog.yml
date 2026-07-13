@@ -421,3 +421,18 @@ items:
     submitter_affiliation: Maintained by CodexWork from public official source.
     status: sourced
     last_checked: "2026-07-07"
+  - id: codex-profiles
+    type: tool
+    name: codex-profiles
+    url: https://github.com/Ducksss/codex-profiles
+    source_url: https://github.com/Ducksss/codex-profiles
+    category: workspace-native agent apps
+    audience: Codex CLI and Desktop users working across separate contexts
+    work_problem: Launch Codex with a selected local profile for work, personal, school, or client contexts.
+    codex_relationship: Community-maintained launcher for Codex CLI and Desktop that sets an isolated CODEX_HOME directory.
+    output: Codex starts with the selected local profile directory.
+    review_boundary: Verify the chosen profile; browser, SSH, and GitHub CLI credentials remain OS-shared.
+    limits: Does not provide full OS isolation and does not read, copy, print, parse, or migrate auth.json tokens.
+    submitter_affiliation: Submitted by the maintainer of codex-profiles.
+    status: sourced
+    last_checked: "2026-07-13"

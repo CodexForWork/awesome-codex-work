@@ -36,6 +36,7 @@ This category covers apps and patterns that run close to existing work surfaces.
 |---|---|---|
 | [Workspace agents in ChatGPT](https://openai.com/index/introducing-workspace-agents-in-chatgpt/) | Understand OpenAI's workspace-agent direction and examples | Do not overstate availability beyond the source |
 | [OpenAI Apps SDK](https://developers.openai.com/apps-sdk) | Build apps that extend ChatGPT with tools and UI | App behavior, submission, and platform rules are source-sensitive |
+| [codex-profiles](https://github.com/Ducksss/codex-profiles) | Launch Codex CLI or Desktop with an isolated local `CODEX_HOME` profile for a chosen work context | Verify the intended profile; browser, SSH, and GitHub CLI credentials remain OS-shared |
 
 ## Document, Spreadsheet, And Deck Tools
 
